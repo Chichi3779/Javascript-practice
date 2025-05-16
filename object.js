@@ -61,8 +61,60 @@
 //  console.log(dreamJob);
 
 
-let johnAge = 37;
-let markAge = 30;
+// let johnAge = 37;
+// let markAge = 30;
 
-let avg = (johnAge + markAge)/2;
-console.log(avg);
+// let avg = (johnAge + markAge)/2;
+// console.log(avg);
+
+
+// /task3
+// let userAge = {
+//     john: 33,
+//     mark: 18,
+//     kunle: 23,
+//     victor: 63,
+//     kyle: 14,
+
+//     avg: function(){
+//         return (this.john + this.kunle + this.victor + this.mark + this.kyle)/5
+//     }
+
+// }
+
+// console.log(userAge.avg())
+
+
+// task4
+
+// let variables = [12, "chichi", true, undefined]
+// let varType;
+
+
+//     variables.forEach(variable => {
+//         varType = console.log(typeof variable);
+//     });
+
+// console.log(varType);
+
+// task5
+
+function bmi (weight, height){
+        return weight / (height ** 2)
+    }
+
+let mark = {
+    height: 1.69,
+    weight: 78,
+}
+
+mark.markBMI = bmi(mark.weight, mark.height);
+
+let john = {
+    height: 1.95,
+    weight: 92,
+}
+john.markBMI = bmi(john.weight, john.height);
+
+console.log(Math.floor(mark.markBMI));
+console.log(Math.floor(john.markBMI));
