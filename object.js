@@ -47,16 +47,22 @@
 //  console.log(person.introduce());
 
 
-let firstName = "Chinenye";
-let lastName = "Ndubuisi";
-let age = 20;
-let driverLicense = false;
-let dreamJob;
-dreamJob = "Full Stack developer";
+// let firstName = "Chinenye";
+// let lastName = "Ndubuisi";
+// let age = 20;
+// let driverLicense = false;
+// let dreamJob;
+// dreamJob = "Full Stack developer";
 
- console.log(firstName);
- console.log(lastName);
- console.log(age);
- console.log(driverLicense);
- console.log(dreamJob);
+//  console.log(firstName);
+//  console.log(lastName);
+//  console.log(age);
+//  console.log(driverLicense);
+//  console.log(dreamJob);
 
+
+let johnAge = 37;
+let markAge = 30;
+
+let avg = (johnAge + markAge)/2;
+console.log(avg);
