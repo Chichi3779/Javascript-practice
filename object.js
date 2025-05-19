@@ -108,13 +108,17 @@ let mark = {
     weight: 78,
 }
 
-mark.markBMI = bmi(mark.weight, mark.height);
+let markBMI = bmi(mark.weight, mark.height);
 
 let john = {
     height: 1.95,
     weight: 92,
 }
-john.markBMI = bmi(john.weight, john.height);
+let johnBMI = bmi(john.weight, john.height);
 
-console.log(Math.floor(mark.markBMI));
-console.log(Math.floor(john.markBMI));
+let  markHigerBMI = markBMI == johnBMI;
+
+console.log("Mark's BMI is higher than John? " + markHigerBMI);
+
+// console.log(Math.floor(mark.markBMI));
+// console.log(Math.floor(john.markBMI));
